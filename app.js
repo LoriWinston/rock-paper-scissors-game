@@ -1,8 +1,10 @@
-// import functions and grab DOM elements
+import { randomThrow } from './utils.js'
 
 const winSpan = document.getElementById('wins');
 const lossSpan = document.getElementById('losses');
 const totalSpan = document.getElementById('total');
+
+
 
 
 // initialize state
@@ -13,3 +15,4 @@ const totalSpan = document.getElementById('total');
 
 
 // set event listeners to update state and DOM
+console.log(randomThrow(1))
