@@ -16,7 +16,7 @@ export const playerRules = {
     }
 };
 export const playerOption = {
-    0: 'Paper',
-    1: 'Scissors',
-    2: 'Rock',
+    1: 'Paper',
+    2: 'Scissors',
+    3: 'Rock',
 };
