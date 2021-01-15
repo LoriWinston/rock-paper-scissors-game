@@ -30,21 +30,21 @@
             </p>
             
             <label id="scissors">
-                <input type="radio" name="rps" value="scissors"/>
+                <input type="radio" name="rps" value="Scissors"/>
                 <img src="assets/scissors.png">   
             </label>
 
             <label id="paper">
-                <input type="radio" name="rps" value="paper" />
+                <input type="radio" name="rps" value="Paper" />
                 <img src="assets/paper.jpg">
             </label>
 
             <label id="rock">
-                <input type="radio" name="rps" value="rock" />
+                <input type="radio" name="rps" value="Rock" />
                 <img src="assets/rock.jpg">
             </label>
 
-            <button>Play!</button>
+            <button id="playButton">Play!</button>
             
             <div>
                 Wins:<span id="wins"></span>
@@ -53,11 +53,13 @@
                 Losses:<span id="losses"></span>
             </div>
             <div>
+                Ties:<span id="ties"></span>
                 Draw:<span id="draw"></span>
             </div>
             <div>
                 Total:<span id="total"></span>
             </div>
+            <div id="secretBox"></div>
             <div>
                 Results:<span id="results"></span>
             </div>
